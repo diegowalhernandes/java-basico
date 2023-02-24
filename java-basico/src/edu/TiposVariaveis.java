@@ -1,4 +1,4 @@
-package edu.variaveis;
+package edu;
 
 public class TiposVariaveis {
 
@@ -20,8 +20,16 @@ public class TiposVariaveis {
 
         numero = 2;
 
-        System.out.print(ano);
-        System.out.print(idade);
+        System.out.println(ano);
+        System.out.println(idade);
+        System.out.println(cep);
+        System.out.println(pi);
+        System.out.println(cpf);
+        System.out.println(salario);
+        System.out.println(numero);
+        System.out.println(salarioMinimo);
+        System.out.print(numeroCurto2);
+
         //valor_nunca_podera_mudar
 
         final double VALOR_DE_PI = 3.14;
