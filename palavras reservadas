@@ -1,0 +1,141 @@
+###Palavras Reservadas###
+
+52 palavras reservadas organizadas por
+clasificação de usabilidade considerando as regras 
+da linguagem
+
+Tipos Primitivos
+
+Classificações
+
+Escopo de uso 
+
+Palavras "opostas"
+
+Palavras reservadas são identificadores de uma 
+linguagem que já possuem
+uma finalidade específica, portanto não podem
+ser utilizadas para nomear
+variáveis, classes, métodos ou atribuots.
+
+A linguagem Java possui 52 palavras reservadas.
+Todas essas palavras são classificadas em 
+grupos e escritas com letra minúscula, 
+sendo identificadas com uma cor especial pela 
+maioria da IDE's. Abaico temos a lista de palavras 
+agrupadas por sua finalidades.
+
+###Controle de pacotes###
+
+import: importa pacotes ou classes para dentro do código
+
+package: especifica a que pacote todas as classes
+de um arquivo pertencem.
+
+###Modificadores de acesso###
+
+public: acesso de qualquer classe
+
+private: acesso apenas dentro da classe
+
+protected: acesso por classes no mesmo
+pacote e subclasses
+
+### Primitivos ###
+
+boolean: um valor indicado verdadeiro ou falso
+
+byte: um inteiro de 8 bits (signed)
+
+char: um character unicode (16-bit unsigned)
+
+double: um número de ponto flutuante de 
+64 bits (signed)
+
+float: um npumero de ponto flutuante de 32 bits(signed)
+
+int: um inteiro de 32 bits(signed)
+
+long: um inteiro de 64 bits (signed)
+
+short: um inteiro de 32 bits (signed)
+
+void: indica que o método não tem retorno de valor
+
+
+### modificadores de classes, variáveis ou métodos ###
+abstract: classe que não pode ser instanciada ou método que
+precisa ser implementado por uma 
+subclasse não abstrata
+
+class: especifica uma classe
+
+extendes: indica a superclasse que a subclasse está
+estendendo
+
+final: impossibilita que uma classe seja estendida, 
+que um método seja sobrescrito ou que uma variável seja
+reinicializada.
+
+implements: indica as interfaces que uma classe
+irá implemnetar.
+
+interface: especifica um interface
+
+native: indica que um método está escrito
+em uma linguagem dependete de plataforma, como o c
+
+new: instancia um novo objeto, chamado seu construtor
+
+static: faz um método ou variável pertencer à classe ao invés
+de às instâncias 
+
+strictfp: usado em frente a um método ou classe para
+indicar que os números de ponto flutuante
+seguirão as regras de ponto flutuante
+em todas as expressões.
+
+synchronized: indica que um método só pode ser acessado 
+por uma thread de cada vez.
+
+transient: impede a serialização de campos
+
+volatile: indica que uma variável pode ser alterada 
+durante o uso de threads.
+
+### Controle de fluxo dentro de um bloco de código ###
+
+break: sai do bloco de codigo em que ele está
+
+case: executa um bloco de código dependendo do teste do 
+switch.
+
+continue: pula a execução do código que viria após essa linha e vai p próxima passagem
+do loop.
+
+###Tratamento de erros ###
+
+assert: testa uma expressão condicional para verificar uma
+suposição do programador
+
+catch: declara o bloco de códigos usado para
+tratar uma exceção.
+
+finally: bloco de código, após um try-catch, que 
+é executado indepentemente do fluxo de programa seguido
+ao lidar com uma exceção.
+
+throw: usado para passar um exceção para
+o método que o chamou.
+
+throws: indica que um método pode passar uma exceção para
+o método que o chamou
+
+try: bloco de código que tentará ser executado, mas que
+pode causar exceção.
+
+### Variáveis de referência ###
+
+super: refere-se a superclasse imediata
+
+this: refere-se a instância atual do objeto.
